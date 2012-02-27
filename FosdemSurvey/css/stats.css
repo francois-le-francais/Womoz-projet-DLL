@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'BOXCLEVE';
+    src: url('BOXCLEVE.eot') format('eot'),
+         url('BOXCLEVE.woff') format('woff'),
+         url('BOXCLEVE.ttf') format('truetype'),
+         url('BOXCLEVE.svg') format('svg');
+}
+
+body {
+ background: #000000;
+}
+
+header{
+  position:relative;
+  height:auto;
+  width:auto;
+  margin:200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+}
+
+#memeCats{
+  margin: auto;
+  text-align:center;
+}
+
+#content{
+  margin: auto;
+  text-align: center;
+}
+
+#formulaire{
+  border:solid 3px red;
+  text-align: right;
+  width: auto;
+}
+
+.typo1 {
+  font-family: BOXCLEVE;
+  font-size: 70px;
+  text-align:center;
+  color: #FFFFFF;
+  margin: 0 auto;
+  padding: 0;
+  width: 960px;
+}
+
+.typo2 {
+  font-family: BOXCLEVE;
+  font-size: 50px;
+  color: #FFFFFF;
+  text-align:center;
+  margin: 0 auto;
+  padding: 0;
+  width: 960px;
+}
+
+.typo3 {
+  font-family: BOXCLEVE;
+  font-size: 30px;
+  color: #FFFFFF;
+  margin: 0 auto;
+  padding: 0;
+  width:200px;
+}
+
+.bouton{
+  border: solid 1px #1792F0;
+  color:#E78E52;
+  background: #000000;
+  font-size: 18px;
+  width:90px;
+  height:40px;
+  border-radius: 5px;
+}
+
+.bouton:hover{
+  color:#3DCCC8;
+}
+
+.return{
+  font-family: Arial;
+  font-size: 18px;
+  color:#E78E52;
+}
+
+.return:hover{
+  color:#3DCCC8;
+}
